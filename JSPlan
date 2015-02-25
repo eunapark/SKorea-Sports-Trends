@@ -1,0 +1,29 @@
+
+The mouse will control the flow and visibility of the article’s path. 
+•	The title and nut graph will always be visible (absolute position) on the top of the page
+•	Fade nut graph text when scrolling down to Part 1
+
+Part 1 (Map of South Korea will be absolute position on the page until Part 3 Canada map)
+•	Begin with full image opacity 
+•	Click – fade in pin point of Seoul and begin path
+•	Path animation –directing the path from pin point on the map to a fading in image of Yuna Kim image
+•	Scrolling page, Yuna Kim image relative to page scroll position
+
+Part 2 (Yuna Kim)
+•	Text animation –fade in the text when first path is fully visible 
+•	Click image of Yuna Kim 
+•	Path animation –directing the path from Yuna Kim to map of Canada 
+o	Toronto pin point fading in last
+•	Toronto map will replace South Korea map –Canada will now be in absolute position
+•	Text fade in
+
+Part 3 (Video) 
+•	Click Canada map and fade in quote.
+•	Then start autoplay of figure skate practice video of Yuna Kim (SBS Broadcasting) simultaneously with fade in of text
+•	Time the last quote from CNN interview to show a few seconds after video text displayed
+
+•	When images are not “playing,” decrease opacity so focus remains relative to scroll and mouse position 
+
+•	Create js dictionary with each “slide’s” text
+•	Var keys to direct text info to each image
+•	Create if-then function statements to redirect user if scrolling back up to previous images
